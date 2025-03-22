@@ -1,7 +1,0 @@
-FROM alpine
-
-RUN apk add --no-cache findutils busybox-extras
-
-COPY rename_files.sh /
-
-ENTRYPOINT ["/rename_files.sh"]
