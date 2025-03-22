@@ -1,5 +1,9 @@
 # Checksum File Renamer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/arminmarth/checksum-file-renamer/docker-build.yml?branch=main)](https://github.com/arminmarth/checksum-file-renamer/actions)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://github.com/arminmarth/checksum-file-renamer/releases)
+
 A Docker container that renames files to their checksums and organizes them by file extension.
 
 ## Overview
@@ -100,6 +104,8 @@ make run-dev
 
 ## Examples
 
+See the [examples directory](./examples/) for ready-to-use example scripts.
+
 ### Basic Usage
 
 ```bash
@@ -135,6 +141,14 @@ make build-dev
 # Run development container
 make run-dev
 ```
+
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes in each version.
 
 ## License
 
